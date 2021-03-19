@@ -21,6 +21,7 @@ section{
     background: url(fondo.jpg);
     background-size: cover;
     /* background-position: center; */
+    /* background-repeat: no-repeat; */
 }
 
 header{
@@ -61,7 +62,10 @@ nav a:hover{
 
 /****** section2 *****/
 #section2{
-    background-color: rgb(56, 54, 54);
+    background: url(carreteras.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
 }
 
 .caja1{
@@ -75,7 +79,7 @@ nav a:hover{
     /* border: 1px solid red; */
     width: 100%;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .cajas{
     vertical-align: top;
@@ -84,6 +88,7 @@ nav a:hover{
     width: 30%;
     height: 250px;
     margin-left: 10px;
+    padding-top: 110px;
 }
 
 .cajas img{
@@ -100,7 +105,7 @@ nav a:hover{
     /* border: 1px solid red; */
     width: 100%;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 250px;
 }
 
 .logo{
@@ -135,13 +140,19 @@ nav a:hover{
     color: white;
     margin-top: 20px;
 }
+
+/* #section1, section2, #section3{
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center; las tres secciones actúan igual, se pone de bajo de las 3 secciones*/
+}
 </style>
 <body>
     <header>
         <a href="https://www.pagani.com/it/"><img src="logo.gif" alt=""></a>
         <nav>
             <a href="#section1">Inicio</a>
-            <a href="#section2">Servicios</a>
+            <a href="#section2">Coches en stock</a>
             <a href="#section3">Contacto</a>
         </nav>
         
